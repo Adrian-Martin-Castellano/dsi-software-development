@@ -20,9 +20,6 @@ This project implements a complete, asynchronous RESTful web application service
 
 The system is fully deployed on **Render** using a cloud-hosted **MongoDB Atlas** database cluster.
 
-* **MongoDB Atlas URI:** `mongodb+srv://LaPosadadelLoboBlanco-rest-api:notesDSI@clusterlaposadadellobob.nr4iyv0.mongodb.net/`
-* **Deployment URL (Render):** Available via Render cloud hosting pipeline.
-
 ---
 
 ## Architecture & Repository Structure
