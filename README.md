@@ -62,3 +62,52 @@ An asynchronous REST API backend developed with **Node.js**, **Express**, and **
 ---
 
 ## Global Technical Features & Stack
+
+## Global Technical Features & Stack
+
+| Technology / Library | Purpose | Practice |
+| :--- | :--- | :--- |
+| **Node.js & TypeScript** | Core runtime environment and strongly-typed execution. | Both |
+| **Inquirer.js** | Interactive command-line interface and prompt flows. | Practice 1 |
+| **Lowdb** | Local JSON file-based database persistence. | Practice 1 |
+| **Express.js** | Web application framework for routing and endpoint middleware. | Practice 2 |
+| **Mongoose / MongoDB** | ODM for document modeling, custom schema validation, and Atlas cloud database. | Practice 2 |
+| **Mocha / Chai / Vitest** | Automated unit and integration testing suites. | Both |
+| **ESLint & Prettier** | Code formatting standards and static linter analysis. | Both |
+| **TypeDoc** | Automated HTML API documentation generator. | Both |
+
+---
+
+## Quick Start & Execution Guide
+
+### Prerequisites
+* **Node.js**: Version 18.x or higher.
+* **Package Manager**: `npm` or `yarn`.
+
+### Installation
+Clone the repository and install all workspace dependencies:
+
+```bash
+npm install
+```
+
+### Running Practice 1 (CLI System)
+Navigate to or execute the command-line interface directly:
+Bash
+
+```bash
+npx ts-node practice-1/src/index.ts
+```
+
+### Running Practice 2 (REST API Backend)
+Start the Express REST API development server:
+
+```bash
+npx ts-node practice-2/src/routes/main-app.ts
+```
+
+## Code Quality & CI/CD Status
+
+* **Automated Testing**: Run all test suites across the repository via `npm test`.
+* **Linter & Formatting**: Enforce style guidelines via `npm run lint`.
+* **API Documentation**: Build technical documentation using `npx typedoc`.
